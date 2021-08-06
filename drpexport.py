@@ -37,9 +37,9 @@ if name == 'main':
     dbn = pm.GetCurrentDatabase()
     dbn2 = dbn.get('DbName')
     print(dbn2)
-# Set the path1 to the DRP export directory
-path = ''
-path1 = path + dbn2
+	# Set the path1 to the DRP export directory
+	path = ''
+	path1 = path + dbn2
 
-if export_drp(path1):
-    print('Export completed.')
+	if export_drp(path1):
+		print('Export completed.')
