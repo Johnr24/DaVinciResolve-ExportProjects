@@ -9,7 +9,8 @@ See DaVinci Resolve disk database backup: https://www.hdhead.com/?p=841
 DaVinci Resolve PostgreSQL backup: https://www.hdhead.com/?p=857
 
 
-UPDATE for 2022
+## UPDATE for 2022
+
 Added an aditional script that uses the Pydavinci library - https://github.com/pedrolabonia/pydavinci
 rather than the native resolve library, both scripts do the same thing should do the same thing, 
 However the Pydavinci Script is confirmed working with resolve 18.1 and Python 3.6.13
